@@ -4,7 +4,7 @@ body {
 
 /* BioMed - Fix for flyouts */
 
-.logo-main {margin-bottom: 8px !important;}
+.logo-main {margin-left: -100px; margin-bottom: 8px !important;}
 
 /* Fix for anything slider - for rotator button to show in IE8 and below */
 
