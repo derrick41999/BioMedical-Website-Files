@@ -1,0 +1,546 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--  link rel="dynamic-content" href="co:head" -->
+
+<title>Genotyping MM</title>
+<meta content="Genotyping MM" name="description" /><meta content="Genotyping MM" name="title"/>
+<link id="com.ibm.lotus.NavStateUrl" rel="alternate" href="/online/portal/vp7/bio/products/reagents/geno/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOK9PU0sDJ3dDbz8fXwMDRx9fcKcA_0CjQz8zYAKIlEUOPsCFZiZm1kYGhsauPsZEqffAAdwNCCkvyA3NBQAV8Umtw!!/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2X0tJNDgxQ0cwSk9MTDEwQU1MVkNRTlEyME82/" />
+
+<link rel="bookmark" title='GenoTyping' href='/online/portal/vp7/bio/products/reagents/geno/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOK9PU0sDJ3dDbz8fXwMDRx9fcKcA_0CjQz8zYAKIlEUOPsCFZiZm1kYGhsauPsZEqffAAdwNCCkvyA3NBQAV8Umtw!!/dl5/d5/L2dJQSEvUUt3QS80SmlFL1o2X0tJNDgxQ0cwSk9MTDEwQU1MVkNRTlEyME82/' hreflang="en"/>
+
+<link href="null" rel="shortcut icon" type="image/x-icon" />
+
+<link href="/CanonBioMedicalThemeStatic/css/bootstrap.css" rel="stylesheet">
+<link href="/CanonBioMedicalThemeStatic/css/bootstrap.3.2.min.css" rel="stylesheet">
+<link href="/CanonBioMedicalThemeStatic/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="/CanonBioMedicalThemeStatic/css/anythingslider.css" rel="stylesheet" type="text/css" media="screen">
+<link href="/CanonBioMedicalThemeStatic/css/canonSolutions.css" rel="stylesheet">
+<link href="/CanonBioMedicalThemeStatic/css/canonSolutions_home.css" rel="stylesheet">
+<link href="/CanonBioMedicalThemeStatic/css/typography.css" rel="stylesheet">
+<link href="/CanonBioMedicalThemeStatic/css/jquery.bxslider.css" rel="stylesheet">
+<link href="/CanonBioMedicalThemeStatic/css/style.css" rel="stylesheet">
+<!-- 
+<a rel="dynamic-content" href="res:/CanonBioMedicalThemeDynamic/themes/html/dynamicSpots/canonical.jsp"></a>
+ -->
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+<![endif]-->
+<!--[if lte IE 9]>
+    <link rel="stylesheet" href="css/ie9.css">
+<![endif]-->
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie8.css">
+<![endif]-->
+
+
+<script src="/CanonBioMedicalThemeStatic/javascripts/vendor/jquery-1.11.1.min.js"></script>
+<script src="/CanonBioMedicalThemeStatic/javascripts/vendor/jquery.uniform.js" type="text/javascript"></script>
+<!--  <script src="/CanonBioMedicalThemeStatic/javascripts/app/bootstrap.min.js"></script>  -->
+<script src="/CanonBioMedicalThemeStatic/javascripts/app/bootstrap/bootstrap-tab.js"></script>
+<script src="/CanonBioMedicalThemeStatic/javascripts/app/bootstrap/bootstrap-collapse.js"></script>
+<!-- Home Slider -->
+<script src="/CanonBioMedicalThemeStatic/javascripts/vendor/jquery.anythingslider.js"></script>
+<script src="/CanonBioMedicalThemeStatic/javascripts/vendor/jquery.easing.1.2.js"></script>
+<script src="/CanonBioMedicalThemeStatic/javascripts/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="/CanonBioMedicalThemeStatic/javascripts/vendor/jquery.placeholder.js"></script>
+<script src="/CanonBioMedicalThemeStatic/javascripts/vendor/jquery.bxslider.js" type="text/javascript"></script>
+<script src="/CanonBioMedicalThemeStatic/javascripts/app/canonSolutions.js" type="text/javascript"></script>
+<script src="/CanonBioMedicalThemeStatic/javascripts/app/canonTheme.js" type="text/javascript"></script>
+
+<style>
+.wpthemeAccess { display: none; }
+.mainNav-listNav.nav a {
+    height: 94px !important;
+}
+.mainNav-listNav.nav span {
+    padding-top: 30px !important;
+}
+</style>
+
+  <!-- Coremetrics Entry --> 
+<script  type="text/javascript" src="//libs.coremetrics.com/eluminate.js"></script>
+<script  type="text/javascript" src="/CSAThemeStatic/js/WebSpherePortalNormalization.js"></script>
+<script>
+
+if(document.URL.indexOf("partnernet.usa.canon.com") > -1 || document.URL.indexOf(".canon-biomedical.") > -1 ) //www.canon-biomedical.com 
+cmSetClientID("90416828",true,"data.coremetrics.com","canon.com"); //Prod Env 90416828
+else
+cmSetClientID("60416828",false,"testdata.coremetrics.com","canon.com"); //Non-Prod Env 60416828
+
+</script>  
+<!-- Coremetrics Entry --> 
+
+</head>
+
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top topNavigationContainer">
+
+		<div class="row">
+			<!--link rel="dynamic-content" href="res:/CSAThemeDynamic/themes/html/dynamicSpots/navigation.jsp"-->
+			<!-- iter nav start -->
+				<div class="span2 logo-main">
+					<a href="/online/portal/vp7/bio/home"> <img width="230" height="62" 
+						border="0" alt="Canon" src="/CanonBioMedicalThemeStatic/img/CanonBioMedical_logo.jpg">
+					</a>
+				</div>
+				<div class="span8 mainNav-container pull-right">
+					<ul class="mainNav-listNav nav">
+			
+						<li class="current">
+					
+
+				<a
+					href="/online/portal/vp7/bio/products"
+					id="navProducts"
+					class="megaToggleProducts"> <span>
+						Products </span> </a>
+				</li>
+			
+						<li>
+					
+
+				<a
+					href="/online/portal/vp7/bio/discover"
+					id="navDiscover"
+					class="megaToggleDiscover"> <span>
+						Discover </span> </a>
+				</li>
+			
+						<li>
+					
+
+				<a
+					href="/online/portal/vp7/bio/shop"
+					id="nav"
+					class="megaToggle"> <span>
+						Shop </span> </a>
+				</li>
+			
+						<li>
+					
+
+				<a
+					href="/online/portal/vp7/bio/support"
+					id="navSupport"
+					class="megaToggleSupport"> <span>
+						Support </span> </a>
+				</li>
+			
+						<li>
+					
+
+				<a
+					href="/online/portal/vp7/bio/aboutus"
+					id="navAboutUs"
+					class="megaToggleAboutUs"> <span>
+						About Us </span> </a>
+				</li>
+			
+						<li>
+					
+
+				<a
+					href="/online/portal/vp7/bio/contactus"
+					id="nav"
+					class="megaToggle"> <span>
+						Contact Us </span> </a>
+				</li>
+			
+</ul>
+</div>
+<!-- <div class="span8  -->
+<!-- iter nav end --></div>
+		<div class="row">
+			<!-- === mega menu containers === -->
+			<div class="megaContainer">
+				<div class="megaInner">
+					
+				<div id="megaProducts"
+					class="megaBox_tmp" style="display: none">
+					<a href="/online/wcm/connect/vp7/BioMed+Content/BioMedPortal/Home/?srv=cmpnt&source=library&cmpntid=e7278399-3606-4dfa-ab2f-d9dd9dc588ae&source=library&srv=cmpnt&StartSitearea=BioMed%20Content/BioMedPortal/MegaMenu/Products">Products</a>
+				</div>
+			
+				<div id="megaDiscover"
+					class="megaBox_tmp" style="display: none">
+					<a href="/online/wcm/connect/vp7/BioMed+Content/BioMedPortal/Home/?srv=cmpnt&source=library&cmpntid=e7278399-3606-4dfa-ab2f-d9dd9dc588ae&source=library&srv=cmpnt&StartSitearea=BioMed%20Content/BioMedPortal/MegaMenu/Discover">Discover</a>
+				</div>
+			
+				<div id="megaSupport"
+					class="megaBox_tmp" style="display: none">
+					<a href="/online/wcm/connect/vp7/BioMed+Content/BioMedPortal/Home/?srv=cmpnt&source=library&cmpntid=e7278399-3606-4dfa-ab2f-d9dd9dc588ae&source=library&srv=cmpnt&StartSitearea=BioMed%20Content/BioMedPortal/MegaMenu/Support">Support</a>
+				</div>
+			
+				<div id="megaAboutUs"
+					class="megaBox_tmp" style="display: none">
+					<a href="/online/wcm/connect/vp7/BioMed+Content/BioMedPortal/Home/?srv=cmpnt&source=library&cmpntid=e7278399-3606-4dfa-ab2f-d9dd9dc588ae&source=library&srv=cmpnt&StartSitearea=BioMed%20Content/BioMedPortal/MegaMenu/AboutUs">About Us</a>
+				</div>
+			</div>
+			</div>
+			<!-- === mega menu containers end === -->
+		</div>
+
+	</div>
+	
+
+<script>
+/*
+var pageid = "";
+var category = "Navigation";
+if(window.location.href.indexOf("/online/portal/ciis/ciis/hd/misc/") >-1 ){
+	category = "Events";
+}
+	$(document).ready(function(){
+		var hasBreadCrumbs = document.getElementById("breadcrumbs-dark-container");
+		if(typeof hasBreadCrumbs != "undefined" && null != hasBreadCrumbs){	
+			var hasBreadCrumbs = $(".breadcrumb li").text();
+			if("" == hasBreadCrumbs || typeof hasBreadCrumbs == "undefined" || null == hasBreadCrumbs){
+		   		pageid  = $("title").text();
+		   		cmCreatePageviewTag(pageid, category, null, null);
+			}else{
+			   	pageid = $(".breadcrumb li.active").text();
+			   	category = $(".breadcrumb li a").last().text();
+			    cmCreatePageviewTag(pageid, category, null, null);
+		    }
+	    }else{
+	    	pageid  = $("title").text();
+	    	cmCreatePageviewTag(pageid, category, null, null);
+	    }
+	});
+	
+*/
+ 
+</script>
+
+		<div class="hiddenWidgetsDiv">
+	<!-- widgets in this container are hidden in the UI by default -->
+	<div class='component-container ibmDndRow wpthemeCol12of12 hiddenWidgetsContainer wpthemeFull id-Z7_KI481CG0JOLL10AMLVCQNQ20O3' name='ibmHiddenWidgets' ></div><div style="clear:both"></div>
+</div>
+<!-- this layout has one main container -->
+<div class="wptheme1Col">
+	<div class='component-container wpthemeCol wpthemePrimary wpthemeLeft wpthemeCol12of12 ibmDndColumn wpthemeFull id-Z7_KI481CG0JOLL10AMLVCQNQ20O7' name='ibmMainContainer' ><div class='component-control id-Z7_KI481CG0JOLL10AMLVCQNQ20K6' ><span id="Z7_KI481CG0JOLL10AMLVCQNQ20K6"></span><section class="ibmPortalControl wpthemeNoSkin a11yRegionTarget" role="region" >
+	<!-- marks the node the analytics tags for this portlet will be placed in -->
+	
+
+	<div class="asa.portlet" id="asa.portlet.Z7_KI481CG0JOLL10AMLVCQNQ20K6" style="display:none;">
+		<span class="asa.portlet.id">Z7_KI481CG0JOLL10AMLVCQNQ20K6</span>
+
+		
+
+	</div>
+	
+<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+	<div style="position:relative; z-index: 1;">
+		<div class="analytics.overlay" ></div>
+	</div>
+    <!-- Hide the text of the title, but still provide the lm-dynamic-title container for accessing the dynamic title -->
+    <span class="wpthemeAccess">
+ 		<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel">Genotyping MM</span>
+	</span>
+    <div class="wpthemeOverflowAuto"> <!-- lm:control dynamic spot injects markup of layout control -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<style>
+a.ourcompany {position:relative; top:-167px;}
+</style>
+<link rel="stylesheet" title="" href="/online/wcm/connect/vp7/7aec7c72-ed98-4cc8-940f-d90fd1a9ac87/canonBioMed.css?MOD=AJPERES&amp;CACHEID=7aec7c72-ed98-4cc8-940f-d90fd1a9ac87" type="text/css" />
+
+
+<div class="CanonBioMed_GenotypingWrapper">
+
+	<table class="BioMed_TopAreaHeader_Genotyping" cellpadding="0" cellspacing="0" border="0">
+    	<tr>
+        	
+            <td class="BioMed_TopAreaHeader_Genotyping_ImgCell"><img src="/CanonBioMedicalThemeStatic/img/stock/practice-area-wide-2.jpg" width="640" height="180" /></td>
+            <td class="BioMed_TopAreaHeader_Genotyping_TextCell"><h2>Genotyping MM</h2></td>
+        </tr>
+    </table>
+    
+    <table cellpadding="0" cellspacing="0" border="0" class="BioMed_Genotyping_TopDescription">
+    	<tr>
+        	<td align="left" class="BioMed_Genotyping_TopDescription_left"><h3>Heading/Description</h3></td>
+            <td align="right" class="BioMed_Genotyping_TopDescription_right"><a href="/online/portal/vp7/bio/shop"  class="btn_blue btn_genotyping">Buy CTA</a></td>
+        </tr>
+    </table>
+    
+    <table cellpadding="0" cellspacing="0" border="0" class="BioMed_Genotyping_ItemTable">
+    	<tr>
+        	<td><h4 class="BioMed_Genotyping_ItemHeading">Heading/Description</h4>
+            	<p class="BioMed_Genotyping_ItemText">Some sample text. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </td>
+        </tr>
+        <tr>
+        	<td valign="top">
+            	
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="BioMed_Genotyping_ItemTable_ChartsGraphsData">
+                  <tr>
+                    <td><img src="/CanonBioMedicalThemeStatic/img/stock/practice-area-wide-2.jpg" width="300" height="300"/></td>
+                    <td><img src="/CanonBioMedicalThemeStatic/img/stock/practice-area-wide-2.jpg" width="300" height="300"/></td>
+                    <td><ul>
+                    	<li>Data Item 1</li>
+                        <li>Data Item 2</li>
+                        <li>Data Item 3</li>
+                        <li>Data Item 4</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td>Chart</td>
+                    <td>Graph</td>
+                    <td>Data</td>
+                  </tr>
+                </table>
+
+            
+            </td>
+        </tr>
+        <tr>
+        	<td align="right"><a target="_blank" title="" href="/online/wcm/connect/vp7/1ec53403-3638-457d-a9f1-af0a6dfb103e/IRISPowerscan10-Flyer.pdf?MOD=AJPERES&amp;CACHEID=1ec53403-3638-457d-a9f1-af0a6dfb103e"  class="btn_blue btn_genotyping">Download</a></td>
+        </tr>
+    </table><!-- end of BioMed_Genotyping_ItemTable -->
+    
+    
+    <table cellpadding="0" cellspacing="0" border="0" class="BioMed_Genotyping_ItemTable">
+    	<tr>
+        	<td><h4 class="BioMed_Genotyping_ItemHeading">Heading/Description</h4>
+            	<p class="BioMed_Genotyping_ItemText">Some sample text. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </td>
+        </tr>
+        <tr>
+        	<td valign="top">
+            	
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="BioMed_Genotyping_ItemTable_ChartsGraphsData">
+                  <tr>
+                    <td><img src="/CanonBioMedicalThemeStatic/img/stock/practice-area-wide-2.jpg" width="300" height="300"/></td>
+                    <td><img src="/CanonBioMedicalThemeStatic/img/stock/practice-area-wide-2.jpg" width="300" height="300"/></td>
+                    <td><ul>
+                    	<li>Data Item 1</li>
+                        <li>Data Item 2</li>
+                        <li>Data Item 3</li>
+                        <li>Data Item 4</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td>Chart</td>
+                    <td>Graph</td>
+                    <td>Data</td>
+                  </tr>
+                </table>
+
+            
+            </td>
+        </tr>
+        <tr>
+        	<td align="right"><a target="_blank" title="" href="/online/wcm/connect/vp7/1ec53403-3638-457d-a9f1-af0a6dfb103e/IRISPowerscan10-Flyer.pdf?MOD=AJPERES&amp;CACHEID=1ec53403-3638-457d-a9f1-af0a6dfb103e"  class="btn_blue btn_genotyping">Download</a></td>
+        </tr>
+    </table><!-- end of BioMed_Genotyping_ItemTable -->
+
+ 
+    
+	
+</div><!-- end of CanonBioMed_GenotypingWrapper -->
+
+<!-- CORE METRICS -->
+<script type="text/javascript">
+    cmCreatePageviewTag(document.title, "1.3.1", null, null);
+</script>
+
+
+
+
+
+
+
+
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+
+       		
+       		<span class="asa.wcm.content_item.path" style="display:none">biomed content/biomedportal/r1/products/genotyping mm</span>
+
+       		
+       		<span class="asa.wcm.content_item.title" style="display:none">Genotyping MM</span>
+    	
+    
+</div>
+</section> </div></div></div>
+<!-- === footer === -->
+  <div class="footerContainer">
+    <div class="mainfooter">
+
+        <!-- <div class="footerEmailContainer">
+            <div class="row">
+                <div class="email-btm-copy">
+                    <a href="mailto:info@uslifesciense.com?subject=ContactUs&body=Come Visit Us" target="_blank">Sign up for our email newsletter and stay up-to-date!</a>
+                    <a href="mailto:info@uslifesciense.com?subject=ContactUs&body=Come Visit Us" target="_blank"><img src="/CanonBioMedicalThemeStatic/img/ciis-footer-subscribe-btn.gif" alt="Sign up for our email newsletter and stay up-to-date!" width="30" height="28" style="border:none;" /></a>
+                </div>
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="span5 quickLinks-container">
+                <h4>Quick Links</h4>
+                <ul class="unstyled inline">
+                    <li>
+                        <ul class="unstyled vcard">
+                            <li><a href="/online/portal/vp7/bio/home">Home</a>
+                            </li>
+                            <li><a href="/online/portal/vp7/bio/products">Products</a>
+                            </li>
+                            <li><a href="/online/portal/vp7/bio/discover">Discover	</a>
+                            </li>
+                            <li><a href="/online/portal/vp7/bio/shop">Shop	</a>
+                            </li>
+                            <li><a href="/online/portal/vp7/bio/support">Support	</a>
+                            </li>
+                            <li><a href="/online/portal/vp7/bio/aboutus">About Us</a>
+                            </li>
+                            <li><a href="/online/portal/vp7/bio/contactus">Contact Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="span6 pull-right footer-right-container">
+                <!--footer-contactUs-->
+
+                <!--<div class="footer-contactUs">
+                    <a href="mailto:info@uslifesciense.com?subject=ContactUs&body=Come Visit Us" target="_blank" class="btn_blue">
+                        <span class="footer-emailIcon"><img src="/CanonBioMedicalThemeStatic/img/ContactUs_icon.gif" /></span> 
+                        Contact Us
+                    </a>
+                     <a href='javascript:window.location.href ="mailto:info@ciis.canon.com?subject=Enterprise Imaging Platform&body=Hello,"' class="btn_blue" >
+                        <span class="footer-emailIcon"><img src="/CanonBioMedicalThemeStatic/img/icons/email.png" /></span>
+                        Email Us
+                    </a> 
+                    
+                </div>-->
+
+                <div class="pull-right">
+                    <div class="footer-buttonsSocial">
+
+
+                        <div class="social">
+                            <ul class="inline right socialButtons">
+                                <!-- <li>
+                                    <a href="https://www.youtube.com/user/" target="_blank">
+                                        <img src="/CanonBioMedicalThemeStatic/img/icons/youTube.png" width="43" height="43" alt="You Tube" border="0">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/imagingplatform" target="_blank">
+                                        <img src="/CanonBioMedicalThemeStatic/img/icons/twitter.png" width="43" height="43" alt="Twitter" border="0">
+                                    </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://www.linkedin.com/company/" target="_blank">
+                                        <img src="/CanonBioMedicalThemeStatic/img/icons/ln.png" width="43" height="43" alt="Linked In" border="0">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row fcl-container">
+            <ul class="inline left footerCopyLinks">
+                <li>
+                    <p class="footerCopy">&copy; <script>document.write(new Date().getFullYear())</script> Canon U.S Life Science, Inc. All Rights Reserved.</p>
+                </li>
+                <li><a href="/online/portal/vp7/bio/footer/privacy"> Privacy Statement</a>
+                </li>                
+                <li><a href="/online/portal/vp7/bio/footer/terms">Terms of Use</a>
+                </li>
+                <li><a href="/online/portal/vp7/bio/footer/legal">Legal Notice</a>
+                </li>
+                <li><a href="/online/portal/vp7/bio/footer/sitemap">Sitemap</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- === footer end === -->
+
+</body>
+
+
+
+</html>

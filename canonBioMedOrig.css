@@ -56,13 +56,13 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	font-family: "OpenSansLight",Arial,Helvetica,sans-serif;
 }
 
-.CanonBioMed_NewsEevntsHome_Table, .CanonBioMed_HomepageRibbonItem_table, .CanonBioMed_AboutUsRibbonItem_table, .CanonBioMed_ReAgentsRibbonItem_table, .CanonBioMed_InstrumentsRibbonItem_table, .CanonBioMed_SupportRibbonItem_table {
+.CanonBioMed_NewsEevntsHome_Table, .CanonBioMed_HomepageRibbonItem_table, .CanonBioMed_AboutUsRibbonItem_table, .CanonBioMed_ReAgentsRibbonItem_table, .CanonBioMed_SupportRibbonItem_table {
 	table-layout: fixed;
 	border-collapse:collapse;
 	width: 100%;	
 }
 
-.CanonBioMed_HomepageRibbonItem, .CanonBioMed_AboutUsRibbonItem, .CanonBioMed_ReAgentsRibbonItem, .CanonBioMed_InstrumentsRibbonItem, .CanonBioMed_SupportRibbonItem {
+.CanonBioMed_HomepageRibbonItem, .CanonBioMed_AboutUsRibbonItem, .CanonBioMed_ReAgentsRibbonItem, .CanonBioMed_SupportRibbonItem {
 	margin: 30px auto;	
 	
 }
@@ -71,23 +71,23 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	width: 960px;
 }
 
-.CanonBioMed_HomepageRibbonItem_table, .CanonBioMed_AboutUsRibbonItem_table, .CanonBioMed_ReAgentsRibbonItem_table, .CanonBioMed_InstrumentsRibbonItem_table, .CanonBioMed_SupportRibbonItem_table {
+.CanonBioMed_HomepageRibbonItem_table, .CanonBioMed_AboutUsRibbonItem_table, .CanonBioMed_ReAgentsRibbonItem_table, .CanonBioMed_SupportRibbonItem_table {
 	margin-top: 10px;	
 }
 
-.CanonBioMed_NewsEevntsHome_Table tr td, .CanonBioMed_HomepageRibbonItem_table tr td, .CanonBioMed_AboutUsRibbonItem_table tr td, .CanonBioMed_ReAgentsRibbonItem_table tr td, .CanonBioMed_InstrumentsRibbonItem_table tr td, .CanonBioMed_SupportRibbonItem_table tr td {
+.CanonBioMed_NewsEevntsHome_Table tr td, .CanonBioMed_HomepageRibbonItem_table tr td, .CanonBioMed_AboutUsRibbonItem_table tr td, .CanonBioMed_ReAgentsRibbonItem_table tr td, .CanonBioMed_SupportRibbonItem_table tr td {
 	vertical-align:top;	
 }
 
-.CanonBioMed_HomepageRibbonItem_table tr td, .CanonBioMed_AboutUsRibbonItem_table tr td, .CanonBioMed_ReAgentsRibbonItem_table tr td, .CanonBioMed_InstrumentsRibbonItem_table tr td, .CanonBioMed_SupportRibbonItem_table tr td {
+.CanonBioMed_HomepageRibbonItem_table tr td, .CanonBioMed_AboutUsRibbonItem_table tr td, .CanonBioMed_ReAgentsRibbonItem_table tr td, .CanonBioMed_SupportRibbonItem_table tr td {
 	overflow: auto;	
 }
 
-.CanonBioMed_HomepageRibbon_bodyText, .CanonBioMed_AboutUsRibbon_bodyText, .CanonBioMed_ReAgentsRibbon_bodyText, .CanonBioMed_InstrumentsRibbon_bodyText, .CanonBioMed_SupportRibbon_bodyText {
+.CanonBioMed_HomepageRibbon_bodyText, .CanonBioMed_AboutUsRibbon_bodyText, .CanonBioMed_ReAgentsRibbon_bodyText, .CanonBioMed_SupportRibbon_bodyText {
 	padding-left: 30px;	
 }
 
-.CanonBioMed_HomepageRibbon_moreLink, .CanonBioMed_AboutUsRibbon_moreLink, .CanonBioMed_ReAgentsRibbon_moreLink, .CanonBioMed_InstrumentsRibbon_moreLink, .CanonBioMed_SupportRibbon_moreLink {
+.CanonBioMed_HomepageRibbon_moreLink, .CanonBioMed_AboutUsRibbon_moreLink, .CanonBioMed_ReAgentsRibbon_moreLink, .CanonBioMed_SupportRibbon_moreLink {
 	float: right;	
 }
 
@@ -310,49 +310,49 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	height: 165px;	
 }
 
-/* Template H - ReAgents, Instruments, Support */
+/* Template H - ReAgents, Support */
 
-.CanonBioMed_ReAgentsWrapper, .CanonBioMed_InstrumentsWrapper, .CanonBioMed_SupportWrapper {
+.CanonBioMed_ReAgentsWrapper, .CanonBioMed_SupportWrapper {
 	width: 960px;
 	margin: 0px auto;
 	padding: 40px 0px;
 	overflow: auto;
 }
 
-.CanonBioMed_ReAgentsRibbonItem h3 a, .CanonBioMed_InstrumentsRibbonItem h3 a, .CanonBioMed_SupportRibbonItem h3 a {
+.CanonBioMed_ReAgentsRibbonItem h3 a, .CanonBioMed_SupportRibbonItem h3 a {
 	color: #000;
 	text-decoration: none;	
 }
 
-.CanonBioMed_ReAgentsRibbonItem_imgCell, .CanonBioMed_InstrumentsRibbonItem_imgCell,.CanonBioMed_SupportRibbonItem_imgCell {
+.CanonBioMed_ReAgentsRibbonItem_imgCell, .CanonBioMed_SupportRibbonItem_imgCell {
 	overflow: hidden !important; /* For IE 10 and below, cuts off images wider than cell */
 }
 
-.CanonBioMed_ReAgentsRibbonItem_imgCell a img, .CanonBioMed_InstrumentsRibbonItem_imgCell a img, .CanonBioMed_SupportRibbonItem_imgCell a img {
+.CanonBioMed_ReAgentsRibbonItem_imgCell a img, .CanonBioMed_SupportRibbonItem_imgCell a img {
 	border: none;	
 }
 
-.BioMed_TwoRibbons_Cell_ReAgents, .BioMed_TwoRibbons_Cell_Instruments, .BioMed_TwoRibbons_Cell_Support {
+.BioMed_TwoRibbons_Cell_ReAgents, .BioMed_TwoRibbons_Cell_Support {
 	padding-right: 30px;
 	vertical-align: top;	
 }
 
-.BioMed_TopAreaHeader_ReAgents, .BioMed_TopAreaHeader_Instruments, .BioMed_TopAreaHeader_Support {
+.BioMed_TopAreaHeader_ReAgents, .BioMed_TopAreaHeader_Support {
 	width: 100%;	
 }
 
-.BioMed_TopAreaHeader_ReAgents_TextCell, .BioMed_TopAreaHeader_Instruments_TextCell, .BioMed_TopAreaHeader_Support_TextCell {
+.BioMed_TopAreaHeader_ReAgents_TextCell, .BioMed_TopAreaHeader_Support_TextCell {
 	width: 320px;
 	text-align: left;
 	padding: 10px 10px 10px 0px;
 }
 
-.BioMed_TopAreaHeader_ReAgents_ImgCell, .BioMed_TopAreaHeader_Instruments_ImgCell, .BioMed_TopAreaHeader_Support_ImgCell {
+.BioMed_TopAreaHeader_ReAgents_ImgCell, .BioMed_TopAreaHeader_Support_ImgCell {
 	width: 640px;
 	height: 180px;
 }
 
-.BioMed_TopAreaHeader_ReAgents_ImgCell img, .BioMed_TopAreaHeader_Instruments_ImgCell img, .BioMed_TopAreaHeader_Support_ImgCell img {
+.BioMed_TopAreaHeader_ReAgents_ImgCell img, .BioMed_TopAreaHeader_Support_ImgCell img {
 	width: 640px;
 	height: 180px;
 }
@@ -463,124 +463,64 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	text-decoration: none;	
 }
 
-/* Genotyping, 2X ODB, Caliberator and Blanking Solutions */
+/* Genotyping MM and 2X ODB */
 
-.CanonBioMed_GenotypingWrapper, .CanonBioMed_CaliberatorWrapper, .CanonBioMed_BlankingWrapper, .CanonBioMed_2XODBWrapper {
+.CanonBioMed_GenotypingWrapper, .CanonBioMed_2XODBWrapper {
 	width: 960px;
 	margin: 0px auto;
 	padding: 40px 0px;
 }
 
-.BioMed_TopAreaHeader_Genotyping, .BioMed_TopAreaHeader_Caliberator, .BioMed_TopAreaHeader_Blanking {
+.BioMed_TopAreaHeader_Genotyping {
 	width: 100%;	
 }
 
-.BioMed_TopAreaHeader_Genotyping_TextCell, .BioMed_TopAreaHeader_Caliberator_TextCell, .BioMed_TopAreaHeader_Blanking_TextCell {
+.BioMed_TopAreaHeader_Genotyping_TextCell {
 	width: 320px;
 	text-align: right;
 	padding: 10px 0px 10px 10px;
 }
 
-.BioMed_TopAreaHeader_Genotyping_ImgCell, .BioMed_TopAreaHeader_Caliberator_ImgCell, .BioMed_TopAreaHeader_Blanking_ImgCell {
+.BioMed_TopAreaHeader_Genotyping_ImgCell {
 	width: 640px;
 	height: 180px;
 }
 
-.BioMed_TopAreaHeader_Genotyping_ImgCell img, .BioMed_TopAreaHeader_Caliberator_ImgCell img, .BioMed_TopAreaHeader_Blanking_ImgCell img {
+.BioMed_TopAreaHeader_Genotyping_ImgCell img {
 	width: 640px;
 	height: 180px;
 }
 
-.BioMed_Genotyping_TopDescription, .BioMed_Caliberator_TopDescription, .BioMed_Blanking_TopDescription {
+.BioMed_Genotyping_TopDescription {
 	width: 100%;
 	margin: 20px auto;
 }
 
-.BioMed_Genotyping_TopDescription tr td, .BioMed_Caliberator_TopDescription tr td, .BioMed_Blanking_TopDescription tr td {
+.BioMed_Genotyping_TopDescription tr td {
 	width: 50%;	
 }
 
-.BioMed_Genotyping_ItemTable, .BioMed_Caliberator_ItemTable, .BioMed_Blanking_ItemTable {
+.BioMed_Genotyping_ItemTable {
 	margin: 30px auto;	
 }
 
-.BioMed_Genotyping_ItemTable_ChartsGraphsData, .BioMed_Caliberator_ItemTable_ChartsGraphsData, .BioMed_Blanking_ItemTable_ChartsGraphsData {
+.BioMed_Genotyping_ItemTable_ChartsGraphsData {
 	width: 100%;
 	table-layout: fixed;
 	margin: 0px auto 20px;
 }
 
-.BioMed_Genotyping_ItemTable_ChartsGraphsData tr td,.BioMed_Caliberator_ItemTable_ChartsGraphsData tr td, .BioMed_Blanking_ItemTable_ChartsGraphsData tr td {
+.BioMed_Genotyping_ItemTable_ChartsGraphsData tr td {
 	width: 33%;	
 	text-align: left;
 	padding-right: 10px;
 	overflow-x: hidden;
 }
 
-.btn_genotyping, .btn_genotyping:hover, .btn_Caliberator, .btn_Caliberator:hover, .btn_blanking, .btn_blanking:hover {
+.btn_genotyping, .btn_genotyping:hover {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
-/* Instrument1 and Instrument2 */
-
-.CanonBioMed_Instrument1Wrapper, .CanonBioMed_Instrument2Wrapper {
-	width: 960px;
-	margin: 0px auto;
-	padding: 40px 0px;
-}
-
-.BioMed_TopAreaHeader_Instrument1, .BioMed_TopAreaHeader_Instrument2 {
-	width: 100%;	
-}
-
-.BioMed_TopAreaHeader_Instrument1_TextCell, .BioMed_TopAreaHeader_Instrument2_TextCell {
-	width: 320px;
-	text-align: right;
-	padding: 10px 0px 10px 10px;
-}
-
-.BioMed_TopAreaHeader_Instrument1_ImgCell, .BioMed_TopAreaHeader_Instrument2_ImgCell {
-	width: 640px;
-	height: 180px;
-}
-
-.BioMed_TopAreaHeader_Instrument1_ImgCell img, .BioMed_TopAreaHeader_Instrument2_ImgCell img {
-	width: 640px;
-	height: 180px;
-}
-
-.BioMed_Instrument1_TopDescription, .BioMed_Instrument2_TopDescription {
-	width: 100%;
-	margin: 20px auto;
-}
-
-.BioMed_Instrument1_TopDescription tr td,.BioMed_Instrument2_TopDescription tr td {
-	width: 50%;	
-}
-
-.BioMed_Instrument1_ItemTable, .BioMed_Instrument2_ItemTable {
-	margin: 30px auto;	
-}
-
-.BioMed_Instrument1_ItemTable_ChartsGraphsData, .BioMed_Instrument2_ItemTable_ChartsGraphsData {
-	width: 100%;
-	table-layout: fixed;
-	margin: 0px auto 20px;
-}
-
-.BioMed_Instrument1_ItemTable_ChartsGraphsData tr td, .BioMed_Instrument2_ItemTable_ChartsGraphsData tr td {
-	width: 33%;	
-	text-align: left;
-	padding-right: 10px;
-	overflow-x: hidden;
-}
-
-.btn_Instrument1, .btn_Instrument1:hover, .btn_Instrument2, .btn_Instrument2:hover {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
 
 /* Discover Sub Pages - (Infectious Disease, Oncology, Personalized Medicine, Inherited Disease, Metabolism, Cardiology, Neurology, Pharmocogenitics) */
 
