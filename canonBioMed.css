@@ -530,6 +530,9 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	padding: 40px 0px;
 }
 
+.BioMed_InstrumentsHeader {
+	padding-left: 0;
+}
 .BioMed_TopAreaHeader_Instrument1, .BioMed_TopAreaHeader_Instrument2 {
 	width: 100%;	
 }
@@ -538,6 +541,11 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	width: 320px;
 	text-align: right;
 	padding: 10px 0px 10px 10px;
+}
+
+.BioMed_TopAreaHeader_Instrument1 > .BioMed_TopAreaHeader_Instrument1_TextCell,
+.BioMed_TopAreaHeader_Instrument1 > .BioMed_TopAreaHeader_Instrument1_TextCell {
+	text-align: left;
 }
 
 .BioMed_TopAreaHeader_Instrument1_ImgCell, .BioMed_TopAreaHeader_Instrument2_ImgCell {
@@ -559,9 +567,9 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	width: 50%;	
 }
 
-.BioMed_Instrument1_ItemTable, .BioMed_Instrument2_ItemTable {
+/*.BioMed_Instrument1_ItemTable, .BioMed_Instrument2_ItemTable {
 	margin: 30px auto;	
-}
+}*/
 
 .BioMed_Instrument1_ItemTable_ChartsGraphsData, .BioMed_Instrument2_ItemTable_ChartsGraphsData {
 	width: 100%;
