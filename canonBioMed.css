@@ -310,7 +310,7 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	height: 165px;	
 }
 
-/* Template H - ReAgents, Instruments, Support */
+/* Template H - ReAgents, Instruments and Support */
 
 .CanonBioMed_ReAgentsWrapper, .CanonBioMed_InstrumentsWrapper, .CanonBioMed_SupportWrapper {
 	width: 960px;
@@ -522,9 +522,9 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 	padding-right: 20px;
 }
 
-/* Instrument1 and Instrument2 */
+/* Instrument Detail */
 
-.CanonBioMed_Instrument1Wrapper, .CanonBioMed_Instrument2Wrapper {
+.CanonBioMed_InstrumentDetailWrapper {
 	width: 960px;
 	margin: 0px auto;
 	padding: 40px 0px;
@@ -533,58 +533,43 @@ div.anythingSlider-default .anythingControls ul li a.cur {
 .BioMed_InstrumentsHeader {
 	padding-left: 0;
 }
-.BioMed_TopAreaHeader_Instrument1, .BioMed_TopAreaHeader_Instrument2 {
+.BioMed_TopAreaHeader_InstrumentDetail {
 	width: 100%;	
 }
 
-.BioMed_TopAreaHeader_Instrument1_TextCell, .BioMed_TopAreaHeader_Instrument2_TextCell {
+.BioMed_TopAreaHeader_InstrumentDetail_TextCell {
 	width: 320px;
-	text-align: right;
-	padding: 10px 0px 10px 10px;
+	padding: 10px 0px 10px 15px;
 }
 
-.BioMed_TopAreaHeader_Instrument1 > .BioMed_TopAreaHeader_Instrument1_TextCell,
-.BioMed_TopAreaHeader_Instrument1 > .BioMed_TopAreaHeader_Instrument1_TextCell {
-	text-align: left;
-}
-
-.BioMed_TopAreaHeader_Instrument1_ImgCell, .BioMed_TopAreaHeader_Instrument2_ImgCell {
+.BioMed_TopAreaHeader_InstrumentDetail_ImgCell {
 	width: 640px;
 	height: 180px;
 }
 
-.BioMed_TopAreaHeader_Instrument1_ImgCell img, .BioMed_TopAreaHeader_Instrument2_ImgCell img {
+.BioMed_TopAreaHeader_InstrumentDetail_ImgCell img {
 	width: 640px;
 	height: 180px;
 }
 
-.BioMed_Instrument1_TopDescription, .BioMed_Instrument2_TopDescription {
+.BioMed_InstrumentDetail_TopDescription {
 	width: 100%;
 	margin: 20px auto;
 }
 
-.BioMed_Instrument1_TopDescription tr td,.BioMed_Instrument2_TopDescription tr td {
+.BioMed_InstrumentDetail_ItemHeading {
+	margin-bottom: 10px;
+}
+
+.BioMed_InstrumentDetail_TopDescription tr td {
 	width: 50%;	
 }
 
-/*.BioMed_Instrument1_ItemTable, .BioMed_Instrument2_ItemTable {
+/*.BioMed_InstrumentDetail_ItemTable, .BioMed_Instrument2_ItemTable {
 	margin: 30px auto;	
 }*/
 
-.BioMed_Instrument1_ItemTable_ChartsGraphsData, .BioMed_Instrument2_ItemTable_ChartsGraphsData {
-	width: 100%;
-	table-layout: fixed;
-	margin: 0px auto 20px;
-}
-
-.BioMed_Instrument1_ItemTable_ChartsGraphsData tr td, .BioMed_Instrument2_ItemTable_ChartsGraphsData tr td {
-	width: 33%;	
-	text-align: left;
-	padding-right: 10px;
-	overflow-x: hidden;
-}
-
-.btn_Instrument1, .btn_Instrument1:hover, .btn_Instrument2, .btn_Instrument2:hover {
+.btn_InstrumentDetail, .btn_InstrumentDetail:hover {
 	padding-left: 20px;
 	padding-right: 20px;
 }
