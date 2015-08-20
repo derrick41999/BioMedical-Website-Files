@@ -1,0 +1,994 @@
+body {
+	font-family: "OpenSansLight",Arial,Helvetica,sans-serif;
+}
+
+/* BioMed - Fix for flyouts */
+
+.logo-main {margin-bottom: 8px !important;}
+
+/* Fix for anything slider - for rotator button to show in IE8 and below */
+
+div.anythingSlider-default .anythingControls ul li a {
+    background: rgb(0,0,0) url("/CanonBioMedicalThemeStatic/img/rotator-button-sprite.jpg") no-repeat scroll -30px 0 !important;
+	background-color:transparent !important;
+    height: 17px;
+    width: 17px;
+	/*border: 1px solid red;*/ /* remove */
+	filter:alpha(opacity=100) !important; /* IE9 */
+}
+
+div.anythingSlider-default .anythingControls ul li a.cur {
+    background: rgb(0,0,0) url("/CanonBioMedicalThemeStatic/img/rotator-button-sprite.jpg") no-repeat scroll 0 0 !important;
+	background-color:transparent !important;
+    height: 17px;
+    width: 17px;
+	/*border: 1px solid blue;*/ /* remove */
+	filter:alpha(opacity=100); /* IE9 */
+}
+
+
+
+/* Template A - Homepage */
+
+/* top nav - navigation */
+.mainNav-listNav.nav span {
+    padding-top: 30px !important;
+}
+
+.CanonBioMed .mainNav-container .nav li a {
+	height: 100%;	
+}
+
+.CanonBioMed .mainNav-container .nav li {
+    width: 110px; /* reduced to accomdate additional nav item */
+	text-align: center;
+}
+
+.CanonBioMed .mainNav-container .nav li a span {
+	padding-left: 0px;	
+}
+
+/* Homepage */
+
+.CanonBioMed_NewsEventsHomeWrapper, .CanonBioMed_HomepageRibbonWrapper {
+	/*width: 960px;*/
+	margin: 0px auto;
+	font-family: "OpenSansLight",Arial,Helvetica,sans-serif;
+}
+
+.CanonBioMed_NewsEevntsHome_Table, .CanonBioMed_HomepageRibbonItem_table, .CanonBioMed_AboutUsRibbonItem_table, .CanonBioMed_ReAgentsRibbonItem_table, .CanonBioMed_SupportRibbonItem_table {
+	table-layout: fixed;
+	border-collapse:collapse;
+	width: 100%;	
+}
+
+.CanonBioMed_HomepageRibbonItem, .CanonBioMed_AboutUsRibbonItem, .CanonBioMed_ReAgentsRibbonItem, .CanonBioMed_SupportRibbonItem {
+	margin: 30px auto;	
+	
+}
+
+.CanonBioMed_HomepageRibbonItem {
+	width: 960px;
+}
+
+.CanonBioMed_HomepageRibbonItem_table, .CanonBioMed_AboutUsRibbonItem_table, .CanonBioMed_ReAgentsRibbonItem_table, .CanonBioMed_SupportRibbonItem_table {
+	margin-top: 10px;	
+}
+
+.CanonBioMed_NewsEevntsHome_Table tr td, .CanonBioMed_HomepageRibbonItem_table tr td, .CanonBioMed_AboutUsRibbonItem_table tr td, .CanonBioMed_ReAgentsRibbonItem_table tr td, .CanonBioMed_SupportRibbonItem_table tr td {
+	vertical-align:top;	
+}
+
+.CanonBioMed_HomepageRibbonItem_table tr td, .CanonBioMed_AboutUsRibbonItem_table tr td, .CanonBioMed_ReAgentsRibbonItem_table tr td, .CanonBioMed_SupportRibbonItem_table tr td {
+	overflow: auto;	
+}
+
+.CanonBioMed_HomepageRibbon_bodyText, .CanonBioMed_AboutUsRibbon_bodyText, .CanonBioMed_ReAgentsRibbon_bodyText, .CanonBioMed_SupportRibbon_bodyText {
+	padding-left: 30px;	
+}
+
+.CanonBioMed_HomepageRibbon_moreLink, .CanonBioMed_AboutUsRibbon_moreLink, .CanonBioMed_ReAgentsRibbon_moreLink, .CanonBioMed_SupportRibbon_moreLink {
+	float: right;	
+}
+
+.CanonBioMed_HomepageLargeRibbon {
+	background-color: #00AEEF;
+	color: #fff;
+	margin-top: 30px;
+	position:relative;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.CanonBioMed_HomepageLargeRibbon_bgWide {
+	width: 100%;
+	background-color: #00AEEF;	
+}
+
+.CanonBioMed_HomepageLargeRibbon_headerCell {
+	width: 324px;	
+}
+
+.CanonBioMed_HomepageLargeRibbon_headerCell {
+	text-align: center;
+}
+
+.CanonBioMed_HomepageLargeRibbon_textCell {
+	vertical-align: top;	
+}
+
+.CanonBioMed_HomepageLargeRibbon a, .CanonBioMed_HomepageLargeRibbon h1, .CanonBioMed_HomepageLargeRibbon h2, .CanonBioMed_HomepageLargeRibbon h3 {
+	color: #fff;
+}
+
+.CanonBioMed_HomepageLargeRibbon_blockquote {
+	background: url("/CanonBioMedicalThemeStatic/img/blockquote.png") no-repeat scroll left 3px rgba(0, 0, 0, 0);
+    color: #fff;
+    font-family: "OpenSans",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 48px;
+    margin-top: 38px;
+    padding: 0 0 0 52px;
+	border: none;
+}
+
+.CanonBioMed_HomepageLargeRibbon_blockquote a {
+	text-decoration: underline !important;	
+}
+
+.CanonBioMed_EventsCell, .CanonBioMed_NewsCell {
+	overflow: auto;	
+}
+
+.CanonBioMed_EventsCell h3, .CanonBioMed_NewsCell h3 {
+	margin: 24px 0px 10px;
+	font-size: 24px;
+	font-weight: bold;
+	line-height:normal !important;
+}
+
+.CanonBioMed_newsItem {
+	float: left;
+	width: 50%;	
+	padding-right: 12px;
+}
+
+.CanonBioMed_eventsHRuleCell {
+	padding-right: 12px;	
+}
+
+.CanonBioMed_EventsMoreLinks {
+	padding-bottom: 12px;	
+}
+
+.CanonBioMed_EventsMoreLinks a {
+	text-decoration: none;
+	color: #00a5e5;
+}
+
+.CanonBioMed_EventsMoreLinks a:hover {
+	text-decoration: underline;
+}
+
+/* Template B - Product Category Landing Page */
+
+.CanonBioMed_ProductCategoryWrapper {
+	width: 960px;
+	margin: 0px auto;
+	font-family: "OpenSansLight",Arial,Helvetica,sans-serif;
+	padding: 40px 0px;
+}
+
+.CanonBioMed_ProductCategoryContainer {
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+.CanonBioMed_ProductCategoryContainer h2 {
+	float: none;
+	clear: both;	
+}
+
+.CanonBioMed_ProductCategoryContainer h2 a {
+	color: #000;
+	text-decoration: none;	
+}
+
+.CanonBioMed_ProductCategoryContainer h2 a:hover {
+	text-decoration: none;	
+}
+
+.CanonBioMed_ProductCategoryTable {
+	margin-top: 20px;	
+}
+
+.CanonBioMed_ProductCategoryContainer img {
+	float: left;	
+}
+
+.CanonBioMed_ProductCategoryImage {
+	border: none;	
+	width: 220px !important;
+	height: 220px !important;
+}
+
+.CanonBioMed_ProductCategory_description {
+	float: left;
+	margin-left: 30px;	
+}
+
+.CanonBioMed_ProductCategory_learnMore {
+	clear: both;
+	float: right;	
+}
+
+/* Template C - Discover landing page */
+
+.CanonBioMed_DiscoverWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px 0px;
+	overflow: auto;
+}
+
+.CanonBioMed_DiscoverItemContainer {
+	overflow: auto;
+	margin-bottom: 40px;
+	/*width: 50%;*/
+	/*float: left;*/
+}
+
+.CanonBioMed_topBlurbContainer_table {
+	table-layout:fixed;
+	border-collapse:collapse;
+}
+
+.CanonBioMed_topBlurbContainer_table tr td {
+	overflow: auto;
+	vertical-align: top;
+}
+
+.CanonBioMed_DiscoverItemContainer h2 {
+	color: #000;
+	text-decoration: none;	
+	font-size: 24px;
+}
+
+.CanonBioMed_DiscoverItemContainer h2 a {
+	color: #000;
+	text-decoration: none;	
+}
+
+.CanonBioMed_DiscoverItemContainer h2 a:hover {
+	text-decoration: none;	
+}
+
+.CanonBioMed_DiscoverItemTable {
+	margin-top: 20px;	
+}
+
+.CanonBioMed_DiscoverItemImage {
+	border: none;	
+	width: 200px;
+	height: 120px;
+}
+
+.CanonBioMed_DiscoverItem_description {
+	float: left;
+	margin: 0px 30px;	
+	overflow: auto;
+}
+
+.CanonBioMed_DiscoverItem_learnMore {
+	float: right;	
+	margin-right: 30px;
+	display: block;
+	overflow:auto;
+}
+
+.CanonBioMed_topBlurbContainer_heading {
+	background-color: #00AEEF;
+	color: #fff;
+	padding: 10px 15px;
+	font-size:18px;
+	margin-bottom: 30px;
+}
+
+/* Template E - About Us */
+
+.CanonBioMed_AboutUsWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px 0px;
+	overflow: auto;
+}
+
+.CanonBioMed_AboutUs_ItemImg {
+	width: 214px;
+	height: 165px;	
+}
+
+/* Template H - ReAgents, Support */
+
+.CanonBioMed_ReAgentsWrapper, .CanonBioMed_SupportWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px 0px;
+	overflow: auto;
+}
+
+.CanonBioMed_ReAgentsRibbonItem h3 a, .CanonBioMed_SupportRibbonItem h3 a {
+	color: #000;
+	text-decoration: none;	
+}
+
+.CanonBioMed_ReAgentsRibbonItem_imgCell, .CanonBioMed_SupportRibbonItem_imgCell {
+	overflow: hidden !important; /* For IE 10 and below, cuts off images wider than cell */
+}
+
+.CanonBioMed_ReAgentsRibbonItem_imgCell a img, .CanonBioMed_SupportRibbonItem_imgCell a img {
+	border: none;	
+}
+
+.BioMed_TwoRibbons_Cell_ReAgents, .BioMed_TwoRibbons_Cell_Support {
+	padding-right: 30px;
+	vertical-align: top;	
+}
+
+.BioMed_TopAreaHeader_ReAgents, .BioMed_TopAreaHeader_Support {
+	width: 100%;	
+}
+
+.BioMed_TopAreaHeader_ReAgents_TextCell, .BioMed_TopAreaHeader_Support_TextCell {
+	width: 320px;
+	text-align: left;
+	padding: 10px 10px 10px 0px;
+}
+
+.BioMed_TopAreaHeader_ReAgents_ImgCell, .BioMed_TopAreaHeader_Support_ImgCell {
+	width: 640px;
+	height: 180px;
+}
+
+.BioMed_TopAreaHeader_ReAgents_ImgCell img, .BioMed_TopAreaHeader_Support_ImgCell img {
+	width: 640px;
+	height: 180px;
+}
+
+/* Theme Flyouts */
+
+.megaDismissBtn {
+	/* original bg image style: */
+	/* background: #969696 url("../img/btnDismiss.png") no-repeat scroll 90px center; */
+	background: #969696 url("/CanonBioMedicalThemeStatic/img/btnDismiss.png") no-repeat scroll 90px center;	
+}
+
+/* Assay Search */
+
+.CanonBioMed_AssaySearchWrapper {
+	width: 960px;
+	margin: 30px auto 30px;
+	padding: 0px !important; /*override bootstrap "container" class*/
+}
+
+.CanonBioMed_AssaySearchHeader_img {
+	margin-bottom: 30px;
+	/*width="960" height="230"*/
+	width: 960px;
+	height: 230px;
+}
+
+.CanonBioMed_AssaySearchHeader_h2, .CanonBioMed_AssaySearchHeader_text {
+	margin-bottom: 20px;	
+}
+
+.CanonBioMed_FormGroupWrap {
+	
+}
+
+.CanonBioMed_FormGroup_left {
+	width: 330px !important;	
+}
+
+.CanonBioMed_FormGroupWrap input[type="text"] {
+  height: 34px;
+}
+
+/*Assay search results*/
+.CanonBioMed_AssaySearchResults_ResultsTable {
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+/* Business Development page */
+
+.CanonBioMed_BusinesDevelopment_TextOutter {
+	margin: 30px auto;	
+}
+
+.CanonBioMed_BusinesDevelopment_TextOutter h3 {
+	margin-bottom: 10px;	
+}
+
+/* Terms Of Use, Privacy Statement */
+
+.CanonBioMed_TermsOfUseWrapper, .CanonBioMed_PrivacyStatementWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px 0px;
+}
+
+.CanonBioMed_TermsOfUseHeader, .CanonBioMed_PrivacyStatementHeader {
+	margin-bottom: 30px;
+}
+
+/*Shop */
+
+.CanonBioMed_ShopWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px 0px;
+}
+
+.CanonBioMed_ShopHeader {
+	margin-bottom: 30px;
+}
+
+/* Stay Connected */
+
+.CanonBioMed_StayConnected_LinkedInIcon {
+	height: 43px;
+	width: 43px;
+	overflow: hidden;
+	background-color: #0077B5;	
+}
+
+.CanonBioMed_StayConnected_SocialTable {
+	table-layout: fixed;	
+	margin: 30px auto;
+	width: 800px;
+}
+
+.CanonBioMed_StayConnected_SocialTable tr td {
+	vertical-align: top;	
+}
+
+.CanonBioMed_StayConnected_IconCell {
+	width: 64px;
+}
+
+.CanonBioMed_StayConnected_TextCell a h4 {
+	text-decoration: none;	
+}
+
+/* Genotyping MM and 2X ODB */
+
+.CanonBioMed_GenotypingWrapper, .CanonBioMed_2XODBWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px 0px;
+}
+
+.BioMed_TopAreaHeader_Genotyping {
+	width: 100%;	
+}
+
+.BioMed_TopAreaHeader_Genotyping_TextCell {
+	width: 320px;
+	text-align: right;
+	padding: 10px 0px 10px 10px;
+}
+
+.BioMed_TopAreaHeader_Genotyping_ImgCell {
+	width: 640px;
+	height: 180px;
+}
+
+.BioMed_TopAreaHeader_Genotyping_ImgCell img {
+	width: 640px;
+	height: 180px;
+}
+
+.BioMed_Genotyping_TopDescription {
+	width: 100%;
+	margin: 20px auto;
+}
+
+.BioMed_Genotyping_TopDescription tr td {
+	width: 50%;	
+}
+
+.BioMed_Genotyping_ItemTable {
+	margin: 30px auto;	
+}
+
+.BioMed_Genotyping_ItemTable_ChartsGraphsData {
+	width: 100%;
+	table-layout: fixed;
+	margin: 0px auto 20px;
+}
+
+.BioMed_Genotyping_ItemTable_ChartsGraphsData tr td {
+	width: 33%;	
+	text-align: left;
+	padding-right: 10px;
+	overflow-x: hidden;
+}
+
+.btn_genotyping, .btn_genotyping:hover {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Discover Sub Pages - (Infectious Disease, Oncology, Personalized Medicine, Inherited Disease, Metabolism, Cardiology, Neurology, Pharmocogenitics) */
+
+.CanonBioMed_DiscoverSubPageWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px 0px;
+}
+
+.BioMed_TopAreaHeader_DiscoverSubPage {
+	width: 100%;	
+}
+
+.BioMed_TopAreaHeader_DiscoverSubPage_TextCell {
+	width: 320px;
+	text-align: right;
+	padding: 10px 0px 10px 10px;
+}
+
+.BioMed_TopAreaHeader_DiscoverSubPage_ImgCell {
+	width: 640px;
+	height: 180px;
+}
+
+.BioMed_TopAreaHeader_DiscoverSubPage_ImgCell img {
+	width: 640px;
+	height: 180px;
+}
+
+.CanonBioMed_DiscoverSubPage_DescriptionArea,.CanonBioMed_DiscoverSubPage_TextContentArea {
+	margin-top: 30px;
+}
+
+.CanonBioMed_DiscoverSubPage_linkareaTable {
+	table-layout: fixed
+	width: 960px;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+
+.CanonBioMed_DiscoverSubPage_linkareaTable tr th, .CanonBioMed_DiscoverSubPage_linkareaTable tr td {
+	vertical-align: top;
+}
+
+.CanonBioMed_DiscoverSubPage_linkareaTable_headerCell {
+	width: 480px;
+	padding-bottom: 15px;
+}
+
+.CanonBioMed_DiscoverSubPage_linkareaTable_headerCell a {
+	text-decoration: none;
+}
+
+.CanonBioMed_DiscoverSubPage_linkareaTable_imgCell a img {
+	border: none;
+	width: 450px;
+	height: 220px;	
+}
+
+/* Assay Detail page */
+
+.CanonBioMed_AssayDetailWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px 0px;
+}
+
+.CanonBioMed_AssayDetailWrapper_topImg {
+	width:303px;
+	height:200px;
+}
+
+.CanonBioMed_AssayDetail_Description {
+	
+}
+
+.CanonBioMed_AssayDetail_SectionHead {
+	background-color: #00AEEF;
+	color: #fff !important;
+	padding: 10px 15px;
+	font-size:18px;
+	margin-bottom: 30px;
+}
+
+.CanonBioMed_AssayDetail_SectionHead h3 {
+	color: #fff;
+	font-size: 18px;	
+}
+
+.CanonBioMed_AssayDetail_AssaySpecific img {
+	margin-bottom: 10px;	
+}
+
+.CanonBioMed_AssayDetail_BtnContainer .btn_genotyping {
+	width: 90%;
+	text-align: center;
+}
+
+.CanonBioMed_AssayDetail_ButtonSectionHead {
+	margin-top: 20px;
+	margin-bottom: 10px;	
+	color: #ffffff :!important;
+}
+
+.CanonBioMed_AssayDetail_ButtonSectionHead a {
+	color: #ffffff :!important;
+}
+
+/*.CanonBioMed_AssaySearchHeader .container-fluid .row */ .col-sm-4 {
+	padding-left: 0px !important;
+}
+
+.CanonBioMed_AssayDetail_AssaySpecific {
+	padding-right: 0px !important;	
+}
+
+/* Manuals and MSDS */
+
+.CanonBioMed_ManMSDSWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.CanonBioMed_ManMSDS_img {
+	margin-bottom: 30px;
+	/*width="960" height="230"*/
+	width: 960px;
+	height: 230px;
+}
+
+.CanonBioMed_ManMSDS_h2, .CanonBioMed_ManMSDS_text {
+	margin-bottom: 20px;	
+}
+
+.CanonBioMed_ManMSDS_SectionHead {
+	background-color: #00AEEF;
+	color: #fff !important;
+	padding: 10px 15px;
+	font-size:18px;
+	margin-bottom: 10px;
+}
+
+.CanonBioMed_ManMSDS_SectionHead h3 {
+	color: #fff;
+	font-size: 18px;	
+}
+
+.CanonBioMed_ManMSDS_sectionTable {
+	margin-bottom: 15px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.CanonBioMed_ManMSDS_sectionTable_docCell, .CanonBioMed_ManMSDS_sectionTable_btnCell {
+	vertical-align: middle;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+
+.CanonBioMed_ManMSDS_sectionTable_docCell {
+	width: 800px;
+}
+
+.CanonBioMed_ManMSDS_sectionTable_btnCell {
+	text-align: right;
+}
+
+/* News and Events */
+
+.CanonBioMed_NewsAndEventsWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.CanonBioMed_NewsAndEvents_img {
+	margin-bottom: 30px;
+	/*width="960" height="230"*/
+	width: 960px;
+	height: 230px;
+}
+
+.CanonBioMed_NewsAndEvents_h2, .CanonBioMed_NewsAndEvents_text {
+	margin-bottom: 20px;	
+}
+
+.CanonBioMed_NewsAndEvents_SectionHead {
+	background-color: #00AEEF;
+	color: #fff !important;
+	padding: 10px 15px;
+	font-size:18px;
+	margin-bottom: 10px;
+}
+
+.CanonBioMed_NewsAndEvents_SectionHead h3 {
+	color: #fff;
+	font-size: 18px;	
+}
+
+.CanonBioMed_NewsAndEvents_listTable {
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.CanonBioMed_NewsAndEvents_listTable_TitleCell, .CanonBioMed_NewsAndEvents_listTable_DateCell {
+	vertical-align: top;
+}
+
+.CanonBioMed_NewsAndEvents_listTable_TitleCell {
+	width: 800px;
+}
+
+.CanonBioMed_NewsAndEvents_BackToTop {
+	width: 100%;
+	text-align: right;
+	margin: 10px auto 30px;
+}
+
+/* Leadership */
+
+.CanonBioMed_LeadershipWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.CanonBioMed_Leadership_img {
+	margin-bottom: 30px;
+	/*width="960" height="230"*/
+	width: 960px;
+	height: 230px;
+}
+
+.CanonBioMed_Leadership_h2, .CanonBioMed_Leadership_text {
+	margin-bottom: 20px;	
+}
+
+.CanonBioMed_Leadership_ItemTable {
+	table-layout: fixed;
+	border-collapse: collapse;	
+	margin-bottom: 30px;
+}
+
+.CanonBioMed_Leadership_SectionHead {
+	background-color: #00AEEF;
+	color: #fff !important;
+	padding: 10px 15px;
+	font-size:18px;
+	margin-bottom: 10px;
+}
+
+.CanonBioMed_Leadership_SectionHead h3 {
+	color: #fff;
+	font-size: 18px;	
+}
+
+.CanonBioMed_Leadership_ItemImgCell {
+	width: 250px;	
+	text-align: left;
+}
+
+.CanonBioMed_Leadership_ItemImgCell img {
+	height: 220px;
+	width: 220px;
+}
+
+.CanonBioMed_Leadership_ItemImgCell, .CanonBioMed_Leadership_ItemTextCell {
+	vertical-align: top;
+}
+
+/* Careers */
+
+.CanonBioMed_CareersWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.CanonBioMed_Careers_img {
+	margin-bottom: 30px;
+	/*width="960" height="230"*/
+	width: 960px;
+	height: 230px;
+}
+
+.CanonBioMed_Careers_h3 {
+	margin-bottom: 20px;
+}
+
+/* FAQ - Frequently Asked Questions */
+
+.CanonBioMed_FAQWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.CanonBioMed_FAQ_img {
+	margin-bottom: 30px;
+	/*width="960" height="230"*/
+	width: 960px;
+	height: 230px;
+}
+
+.CanonBioMed_FAQ_h3 {
+	margin-bottom: 20px;
+}
+
+.BioMed_FAQ_QMenu {
+	margin-bottom: 20px;	
+}
+
+.BioMed_FAQ_QMenu a {
+	display: block;
+}
+
+.BioMed_FAQ_answerContaier {
+	margin-bottom: 20px;
+	position: relative;
+
+}
+
+.BioMed_FAQ_answerQ {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.CanonBioMed_FAQWrapper :target:before { /* Offset for FAQ link anchors */
+	content:"";
+	display:block;
+	height: 110px;
+	margin: -110px 0 0;
+}
+
+/* News Detail page */
+
+.CanonBioMed_NewsDetailWrapper {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.CanonBioMed_NewsDetail_img {
+	margin-bottom: 30px;
+	/*width="960" height="230"*/
+	width: 960px;
+	height: 230px;
+}
+
+.CanonBioMed_NewsDetail_h2, .CanonBioMed_NewsDetail_text {
+	margin-bottom: 20px;	
+}
+
+.CanonBioMed_NewsDetail_SectionHead {
+	background-color: #00AEEF;
+	color: #fff !important;
+	padding: 10px 15px;
+	font-size:18px;
+	margin-bottom: 10px;
+}
+
+.CanonBioMed_NewsDetail_SectionHead h3 {
+	color: #fff;
+	font-size: 18px;	
+}
+
+.CanonBioMed_NewsDetail_bottomTable {
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.CanonBioMed_NewsDetail_bottomTable tr td {
+	width: 50%;
+}
+
+.CanonBioMed_NewsDetail_bottomTable_right {
+	text-align: right;
+}
+
+/* Events detail */
+
+.CanonBioMed_Events_EventItem h4 {
+	font-size: 16px;	
+	font-weight: bold;
+}
+
+/* Contact Us */
+
+.CanonBioMed_ContactUs_Wrapper {
+	width: 960px;
+	margin: 40px auto;
+	padding: 0px;
+}
+
+/* 404 Error page */
+
+.CanonBioMed_errorWrapper {
+	width: 960px;
+	margin: 20px auto;
+	padding: 0px;
+}
+
+/* Sitemap */
+
+.CanonBioMed_SitemapWrapper {
+	width: 960px;
+	margin: 20px auto;
+	padding: 0px;
+	overflow: auto;
+}
+
+.CanonBioMed_SitemapList {
+	list-style-type: none;
+	margin: 0px 70px 0px 0px;
+	padding: 0px;
+	/*float: left;*/ /*add float for 2 column layout*/
+}
+
+.CanonBioMed_SitemapItemA, .CanonBioMed_SitemapItemB, .CanonBioMed_SitemapItemC {
+	line-height: 30px;
+}
+
+.CanonBioMed_SitemapItemA {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 0px;
+
+}
+
+.CanonBioMed_SitemapItemB {
+	margin-left: 20px;
+}
+
+.CanonBioMed_SitemapItemC {
+	margin-left: 40px;
+}
+
+/* Thank you confirmation - Contact Us */
+
+.CanonBioMed_ContactUsThankYou_Wrapper {
+	width: 960px;
+	margin: 20px auto;
+	padding: 0px;
+}
+
+.CanonBioMed_ContactUsThankYou_Wrapper .form-horizontal .form-group {
+    margin-left: 0px !important;
+}
+
+/* Opt out */
+
+.CanonBioMed_OptOut_Wrapper {
+	width: 960px !important;
+	margin: 20px auto;
+	padding: 0px;
+}
+
+.CanonBioMed_OptOut_width {
+	width: 960px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;	
+}
+
+/* Fix for Assay Search spacing */
+
+.CanonBioMed_AssaySearchWrapper #assaySearchRequestFrm div h2 {
+	margin-bottom: 30px;
+}
